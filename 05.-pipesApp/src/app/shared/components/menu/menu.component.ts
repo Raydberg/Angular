@@ -43,8 +43,11 @@ export class MenuComponent {
         icon: 'pi pi-cog',
         items: [
           {
-            label: 'Otro elemento',
+            label: 'Custom Pipe',
             icon: ' pi pi-cog',
+            command:()=>{
+              this.router.navigate(["/custom"])
+            }
           },
         ],
       },
