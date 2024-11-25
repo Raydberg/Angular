@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Error404PageComponent } from './heroes/error404-page/error404-page.component';
+import { Error404PageComponent } from './heroes/pages/error404-page/error404-page.component';
 
 //LazyLoading
 const routes: Routes = [
