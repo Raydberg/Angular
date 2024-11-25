@@ -99,6 +99,10 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/app/assets"
               }
             ],
             "styles": [
